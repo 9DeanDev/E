@@ -7,4 +7,153 @@
     background: #ffffff;
     border-radius: 24px;
     gap: 24px;
+    padding: 50px 16px 0 16px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .avatarContainer {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+
+        .btn {
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        .avatar {
+            width: 50px;
+            height: auto;
+            border-radius: 1px;
+            cursor: pointer;
+        }
+    }
+
+    .titleContainer {
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .subTitle {
+            font-size: 28px;
+            font-weight: 400;
+            color: #3a3a3a;
+        }
+    }
+
+    .searchBar {
+        height: 60px;
+        border-radius: 16px;
+        border: none;
+        outline: none;
+        background: #F5F5F8;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        padding-left: 16px;
+
+        .search {
+            border: none;
+            outline: none;
+            background: #F5F5F8;
+            font-size: 18px;
+            width: 100%;
+            padding-left: 6px;
+        }
+    }
+
+    .navFood {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        .navFoodChild {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            background: rgb(253, 207, 176);
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .active {
+            background: rgb(255, 102, 0);
+        }
+    }
+
+    .rpContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .seeAll {
+            color: red;
+            font-weight: 600;
+        }
+    }
+
+    .foodContainer {
+        // background: rgba(red, green, blue, alpha);
+        padding: 20px;
+
+        .foodChildContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 8px;
+
+            // .foodImg {}
+
+            .foodDetails {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .foodNote {
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                .foodPrice {
+                    font-size: 18px;
+                    color: red;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+
+    .footer {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        background: #ffffff;
+        // width: 100%;
+        height: 50px;
+
+        div {
+            flex: 20%;
+            font-size: 30px;
+            text-align: center;
+            padding: 20px;
+            cursor: pointer;
+        }
+    }
 }
